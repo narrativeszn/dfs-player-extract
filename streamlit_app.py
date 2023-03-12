@@ -26,6 +26,6 @@ def convert_df(player_data):
 
 csv = convert_df(player_data)
 
-st.download_button("CSV", csv, f"player_extract_{extract_date}.csv", "text/csv", key='download-csv')
+st.download_button("CSV", csv, f"player_extract_{current_date}.csv", "text/csv", key='download-csv')
 
 
